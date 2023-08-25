@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up page</title>
+    <link rel="stylesheet" href="styles/signups.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="signui"></div>
+
+
+    <form id="signupdata">
+        <div class="form">
+            <div class="round">
+                <h3 class="heading">Sign Up</h3>
+                <div class="break">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" id="name">
+                        <p style="color: red;" id="n_err"></p>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Password" id="Password">
+                        <p style="color: red;" id="p_err"></p>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" id="email">
+                        <p style="color: red;" id="e_err"></p>
+                    </div>
+                    <div class="form-group">
+                       <select class="a-1">
+                        <option value="">India</option>
+                        <option value="">China</option>
+                        <option value="">Newzeland</option>
+                        <option value="">USA</option>
+                        <option value="">UK</option>
+                       </select>
+                    </div>
+                    <div id="sub">
+                        <input type="submit" value="SIGN UP">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+<script type="module" src="scripts/signup.js"></script>
+</html>

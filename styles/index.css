@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.row{
+    display: flex;
+}
+header{
+    background-color: rgba(255, 0, 0, 0.822);
+    padding: 10px;
+}
+header nav ul li {
+    text-decoration: none;
+    list-style: none;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    padding-left: 110px;
+    color: white;
+    font-size: 18px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+#parent-box{
+    display: flex;
+}
+#parent-box #box1{
+    border: 1px solid #bc5959;
+    height: 100vh;
+    width: 20%;
+}
+#parent-box #box2{
+    width: 80%;
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   height: 100vh;
+   overflow: scroll;
+   gap: 15px;
+   padding-left: 20px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+#box2 div{
+    border: 2px solid #e1e1e1;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s;
+}
+#box2 div h3{
+    padding-top: 20px;
+    font-size: 18px;
+    color: #071c1f;
+}
+#box2 div p{
+    padding-top: 9px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #bc5959;
+  }
+  #box2 div button{
+    margin-top: 13px;
+    margin-left: 10px;
+    padding: 13px 35px;
+    font-size: 17px;
+    background-color: #bc5959;
+    color: white;
+    border: none;
+}
+#box1 button{
+    display: block;
+    margin:35px auto;
+    padding: 17px 35px;
+    font-size: 17px;
+    background-color: #bc5959;
+    color: white;
+    border: none;
+}
+#box1 input{
+    margin:20px auto;
+    display: block;
+    padding: 13px;
+    outline: none;
+}
+#box1 #search{
+    position: absolute;
+    top: 77px;
+    left:328px;
+    padding: 12px 10px;
+}
+#box1 #searchs{
+    position: absolute;
+    top: 142px;
+    left:328px;
+    padding: 12px 10px;
+}
+#select{
+    width: 8%;
+    position: absolute;
+    right: 4%;
+    top: 23px;
+}   
